@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="icon" href="wall.jpg" />
+		<meta charset="UTF-8">
+		<link rel="stylesheet"  href="connexion.css"/>
+		<title>S'inscrire</title>
+    </head>
+    
+    <body>
+            <section class="box2">
+                    <form method="post">
+                        <h2>Inscrivez-vous</h2>
+                            <fieldset>
+                                <legend>Connexion</legend>
+                        <div class="inputBox2">
+                            <input type="text" name="" required=""/>
+                                <label>Pseudo</label>
+                        </div>
+
+                        <div class="inputBox2">
+                            <input type="password" name="passe" required=""/>
+                                <label>Mot de passe</label>
+                        </div>
+
+                        <div class="inputBox2">
+                            <input type="password" name="passe2" required=""/>
+                                <label>Confirmation du mot de passe</label>
+                        </div>  
+                            </fieldset>
+
+                        <fieldset>
+                            <legend>Donnés d'inscription</legend>
+                                <label id="inputBox2"></label>
+        
+                        <div class="inputBox2">
+                            <input type="date" name="date-naissance" required=""/>
+                        </div>
+
+                        <div class="inputBox2">
+                            <input type="text" name="Nom" id="nom" required=""/>
+                                <label>Nom</label>
+                        </div>
+
+                        <div class="inputBox2">
+                            <input type="text" name="Prenom" id="prenom" required=""/>
+                                 <label>Prénom</label>
+                        </div>
+
+                        <div class="inputBox2">
+                            <input type="email" name="email" required=""/>
+                                <label>Adresse E-mail</label>
+                        </div>
+
+                        <div class="inputBox2">
+                            <input type="tel" name="numero" required=""/>
+                                <label>Numéro de téléphone</label>
+                        </div>
+                        </fieldset>
+                      
+                        <select name="sexe" id="choix-sexe">
+                            <option value="rien">- Sexe -</option>
+                            <option value="homme">Homme</option>
+                            <option value="femme">Femme</option>
+                        </select>
+
+                        <select name="choix-etude" id="choix-etude">
+                            <option value="rien">- Niveau d’étude -</option>
+                            <option value="femme">Études supérieurs</option>
+                            <option value="femme">Bac</option>
+                            <option value="femme">Brevet</option>
+                            <option value="homme">Aucune étude</option>
+                        </select>
+        
+                        
+                            <textarea name="description" placeholder="Description"></textarea>                               
+        
+                        <label id="sous-titre">Choix hobbies :</label>
+        
+                        <section class="hobbies">
+                            <label class="hobbies-1"><input type="checkbox" name="nom_variable_1" value="choix1"/>Sport</label>
+                            <label class="hobbies-1"><input type="checkbox" name="nom_variable_1" value="choix1"/>Cinéma</label>
+                            <label class="hobbies-1"><input type="checkbox" name="nom_variable_1" value="choix1"/>Voyage</label>
+                            <label class="hobbies-1"><input type="checkbox" name="nom_variable_1" value="choix1"/>Musique</label></br>
+                            <label class="hobbies-1"><input type="checkbox" name="nom_variable_1" value="choix1"/>Lecture</label>
+                            <label class="hobbies-1"><input type="checkbox" name="nom_variable_1" value="choix1"/>Informatique</label>
+                            
+                        </section>
+        
+                        <a href="connexion.html"><input class="button" type="button" value="M'inscrire" name="inscription"/></a>
+                    </form>
+                </section>
+
+    </body>
+
+</html>    
